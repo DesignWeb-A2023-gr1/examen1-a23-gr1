@@ -1,0 +1,33 @@
+/** Si vous avez des importations, insérez-les ici **/
+
+/** =========================== **/
+
+hmtl, body {
+    margin:0;
+}
+
+#carte {
+    width:100%;
+    position: relative;
+    display: inline-block; 
+}
+
+#carte img {
+    display: block;
+    width: 100%;
+    transform: rotate(180deg);
+}
+
+#carte #grille {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#carte #continents {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/** Insérez votre CSS en dessous de ce commentaire **/ 
